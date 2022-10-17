@@ -63,6 +63,10 @@ div img {
   background-color: orange;
 }
 
+.col-5 {
+  background-color: grey;
+}
+
 /* Tablet Landscape Screen Sizes */
 @media only screen and (min-width: 480px) {
   .col-1,
@@ -73,6 +77,10 @@ div img {
     flex: 0 0 100%;
   }
   .col-4 {
+    flex: 0 0 100%;
+  }
+
+  .col-5 {
     flex: 0 0 100%;
   }
 }
@@ -92,5 +100,9 @@ div img {
 
   .col-4 {
     flex: 0 0 68%;
+  }
+
+  .col-5 {
+    flex: 0 0 92%;
   }
 }
