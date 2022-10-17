@@ -56,14 +56,10 @@ div img {
 }
 
 .col-3 {
-  background-color: #a3cdd9;
-}
-
-.col-4 {
   background-color: orange;
 }
 
-.col-5 {
+.col-4 {
   background-color: grey;
 }
 
@@ -73,15 +69,19 @@ div img {
   .col-2 {
     flex: 0 0 44%;
   }
-  .col-3 {
-    flex: 0 0 100%;
+  .col-3,
+  .col-4,
+  .tablet-full-row {
+    flex: 0 0 92%;
   }
-  .col-4 {
-    flex: 0 0 100%;
+  .x {
+    order: 1;
   }
-
-  .col-5 {
-    flex: 0 0 100%;
+  .y {
+    order: 3;
+  }
+  .z {
+    order: 2;
   }
 }
 /* Desktop screen Sizes */
@@ -95,14 +95,10 @@ div img {
   }
 
   .col-3 {
-    flex: 0 0 20%;
-  }
-
-  .col-4 {
     flex: 0 0 68%;
   }
 
-  .col-5 {
+  .col-4 {
     flex: 0 0 92%;
   }
 }
